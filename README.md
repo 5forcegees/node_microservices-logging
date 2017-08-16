@@ -44,9 +44,9 @@ Example of registering the hapi-bunyan plugin:
 
 ```javascript
 // Create the object that is used to register the plugin
-var config_bunyan = {
+var configBunyan = {
     register: require('hapi-bunyan'),
-    options: {logger: generalLogger.log}
+    options: {generalLogger: generalLogger.log}
 };
 
 // Register the plugin
