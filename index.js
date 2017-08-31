@@ -43,4 +43,4 @@ module.exports = function (config) {
 		transaction: transactionLogger,
 		performance: performanceLogger
 	};
-}
+} 
